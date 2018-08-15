@@ -60,30 +60,29 @@ a {
   display: flex;
   flex-direction: column;
 }
-.picture {
+.gallery {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-.image {
-  width: 70%;
-}
-.client {
-  width: 30%;
-  padding: 10px;
-}
-.photo {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
   width: 100%;
+  margin: 0;
+}
+.pic {
+  width: 400px;
   height: auto;
+  margin: 0;
 }
-.butter {
-  color: #3a3a3a;
-  font-weight: bold;
+
+@media screen and (max-width: 825px) {
+  .pic {
+    width: 300px;
+  }
 }
-.butter:hover {
-  color: #ff5151;
-}
-.biz {
-  font-size: 15px;
-  padding: 10px;
+@media screen and (max-width: 625px) {
+  .pic {
+    width: 100%;
+  }
 }
