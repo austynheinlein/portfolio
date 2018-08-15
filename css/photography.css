@@ -49,6 +49,12 @@ body, html {
   padding: 10px;
   font-size: 20px;
 }
+.linkpg {
+  text-decoration: none;
+  color: #8ee5b1;
+  padding: 10px;
+  font-size: 20px;
+}
 /* ----------------------------------------- */
 .welcome {
   display: flex;
@@ -59,12 +65,13 @@ body, html {
 
 }
 .text {
-  padding: 30px;
+  padding: 3px;
   text-align: center;
   background: #ff5151;
   margin-top: 0;
-  color: white;
-  font-size: 18px;
+  color: #e54242;
+  font-size: 45px;
+  font-weight: bold
 }
 .gallery {
   display: flex;
@@ -114,7 +121,7 @@ h2 {
   padding: 30px;
   text-align: center;
   background: #ff5151;
-  margin-top: 0;
+  margin-top: 25px;
   color: white;
   font-size: 18px;
   font-weight: normal;
