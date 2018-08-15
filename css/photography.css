@@ -1,5 +1,6 @@
 * {
   font-family: Helvetica;
+  color: #3a3a3a;
 }
 body {
   margin: 0;
@@ -44,6 +45,45 @@ body {
 a {
   text-decoration: none;
   color: white;
-  padding: 12px;
+  padding: 10px;
   font-size: 20px;
+}
+/* ----------------------------------------- */
+.text {
+  padding: 30px;
+  text-align: center;
+  background: #ff5151;
+  margin-top: 0;
+  color: white;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+}
+.picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image {
+  width: 70%;
+}
+.client {
+  width: 30%;
+  padding: 10px;
+}
+.photo {
+  width: 100%;
+  height: auto;
+}
+.butter {
+  color: #3a3a3a;
+  font-weight: bold;
+}
+.butter:hover {
+  color: #ff5151;
+}
+.biz {
+  font-size: 15px;
+  padding: 10px;
 }
