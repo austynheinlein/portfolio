@@ -178,6 +178,44 @@ main {
   height: auto;
   margin: 0;
 }
+/* CLIENTS -------------------------------------- */
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+.logo {
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #b2ad4c;
+}
+.logo:hover {
+  background: #c6c15b;
+  color: #3a3a3a;
+}
+h2 {
+  padding: 30px;
+  text-align: center;
+  background: #747a5d;
+  margin: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
 
 /* ------------------------------------------- */
 @media screen and (min-width: 865px) {
@@ -256,7 +294,7 @@ main {
   }
 }
 
-/* button ----------------------------------- */
+/* JS button ----------------------------------- */
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -275,4 +313,5 @@ main {
 
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+    color: white;
 }
