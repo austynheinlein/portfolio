@@ -40,11 +40,21 @@ body {
   flex-direction: column;
   padding: 8px;
 }
-a {
+.navlinks {
   text-decoration: none;
   color: #3a3a3a;
-  padding: 12px;
+  padding: 8px;
   font-size: 20px;
+}
+.navlinks:hover {
+  color: #c6c15b;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: #3a3a3a;
 }
 /* ------------------------------------------- */
 main {
@@ -78,15 +88,6 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.featured {
-  font-size: 18px;
-  color: #3a3a3a;
-  text-align: center;
-}
-.connect {
-  text-align: center;
-  border: 2px solid #3a3a3a;
-}
 .section {
   display: flex;
   flex-direction: row;
@@ -110,17 +111,6 @@ main {
   flex-direction: row;
   justify-content: flex-start;
   background-image: url('create.jpg');
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 300px;
-  margin: 0;
-}
-.section3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-image: url('moab.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -151,6 +141,17 @@ main {
 }
 
 /* photography --------------------------- */
+.section3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-image: url('moab.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  margin: 0;
+}
 .title3 {
   background: #ae7561;
   margin: 0;
@@ -178,6 +179,20 @@ main {
   height: auto;
   margin: 0;
 }
+.featured {
+  font-size: 18px;
+  color: #3a3a3a;
+  text-align: center;
+}
+.connect {
+  text-align: center;
+  border: 2px solid #3a3a3a;
+  padding: 8px;
+}
+.connect:hover {
+  background: #c68973;
+}
+
 /* CLIENTS -------------------------------------- */
 .work {
   display: flex;
@@ -300,7 +315,7 @@ h2 {
   }
 }
 
-/* JS button ----------------------------------- */
+/* JS top button ----------------------------------- */
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -315,11 +330,13 @@ h2 {
     padding: 10px; /* Some padding */
     border-radius: 100%; /* Rounded corners */
     font-size: 13px; /* Increase font size */
+    width: 40px;
+    height: 40px;
 }
 
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
-    color: white;
+    color: #c6c15b;
 }
 
 /* social --------------------------------- */
@@ -335,15 +352,19 @@ h2 {
     text-align: center;
     text-decoration: none;
 }
-.fa-twitter {
+.fa:hover {
+  color: #c6c15b;
+}
+/*
+a .fa-twitter {
     background: #3a3a3a;
     color: white;
 }
-.fa-linkedin {
+a .fa-linkedin {
   background: #3a3a3a;
   color: white;
 }
-.fa-behance {
+a .fa-behance {
   background: #3a3a3a;
   color: white;
-}
+} */
