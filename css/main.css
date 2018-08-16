@@ -234,6 +234,12 @@ h2 {
   .section {
     height: 350px;
   }
+  .section2 {
+    height: 350px;
+  }
+  .section3 {
+    height: 350px;
+  }
   .title {
     font-size: 25px;
   }
@@ -314,4 +320,30 @@ h2 {
 #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
     color: white;
+}
+
+/* social --------------------------------- */
+.social {
+  display: flex;
+  flex-direction: row;
+}
+.fa {
+    padding: 5px;
+    margin: 0 1px;
+    font-size: 12px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa-twitter {
+    background: #3a3a3a;
+    color: white;
+}
+.fa-linkedin {
+  background: #3a3a3a;
+  color: white;
+}
+.fa-behance {
+  background: #3a3a3a;
+  color: white;
 }
