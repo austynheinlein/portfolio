@@ -156,27 +156,24 @@ main {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background:#fcf4d6;
+  background: #474744;
 }
 .clothes {
-  background: #f4ebf1;
+  background: #766d7c;
 }
 .coopskis, .umstuff {
   width: 60%;
   height: auto;
 }
-a.cooplink{
-  color: #756f79;
-}
-a.umlink{
-  color: #507070;
+a.cooplink, a.umlink{
+  color: #dbd87d;
 }
 .coop, .um {
   padding: 30px;
   width: 40%;
   font-size: 22px;
   margin: 0;
-
+  color: white;
 }
 
 /* photography --------------------------- */
@@ -285,8 +282,14 @@ h2.aboutaust {
   font-size: 20px;
   background: #3a3a3a;
 }
+.austyn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .portrait {
   width: 100%;
+  margin: 0px;
 }
 h3.whoami {
   display: flex;
@@ -295,6 +298,27 @@ h3.whoami {
   align-items: center;
   margin: 0px;
   padding: 15px;
+}
+.resume {
+  background: #5d838c;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.story {
+  color: white;
+  font-size: 25px;
+  padding: 10px 35px;
+}
+a.GA {
+  color: #f9b01d;
+}
+.devimg {
+  width: 150px;
+  height: auto;
 }
 /* ------------------------------------------- */
 @media screen and (min-width: 865px) {
