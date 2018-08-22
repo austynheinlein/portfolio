@@ -99,6 +99,7 @@ main {
   height: 300px;
   margin: 0;
 
+
   /* -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
         -webkit-transform: scaleX(-1);
@@ -130,6 +131,7 @@ main {
   width: 100%;
   height: 300px;
   margin: 0;
+  border-top: 10px solid #3a3a3a;
 }
 .title2 {
   background: #99a1b0;
@@ -188,6 +190,7 @@ a.umlink{
   width: 100%;
   height: 300px;
   margin: 0;
+  border-top: 10px solid #3a3a3a;
 }
 .title3 {
   background: #ae7561;
@@ -270,6 +273,9 @@ h2 {
   font-weight: normal;
 }
 /* about -----------------------------------  */
+.about {
+  width: 100%;
+}
 .aboutsection {
   width: 100%;
   background: #3a3a3a;
@@ -282,7 +288,14 @@ h2.aboutaust {
 .portrait {
   width: 100%;
 }
-
+h3.whoami {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  margin: 0px;
+  padding: 15px;
+}
 /* ------------------------------------------- */
 @media screen and (min-width: 865px) {
   .header {
@@ -353,14 +366,39 @@ h2.aboutaust {
     height: 100%;
   }
 }
-/* creative work ---------------------------  */
+/* creative work & about---------------------------  */
 @media screen and (min-width: 900px) {
   .works {
     flex-direction: row;
     width: 100%;
   }
+  .about {
+    width: 100%;
+    height: auto;
+  }
+  .austyn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+  h3.whoami {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .portrait {
+    display: flex;
+    width: 695px;
+    height: 463.328px;
+  }
 }
-
+@media screen and (min-width: 1210px) {
+  .portrait{
+    width: 850px;
+    height: 566.656px;
+  }
+}
 /* photography------------------------------ */
 @media screen and (max-width: 825px) {
   .pic {
