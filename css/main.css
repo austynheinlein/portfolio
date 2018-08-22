@@ -244,6 +244,7 @@ a.umlink{
   flex-wrap: wrap;
   width: 100%;
   margin: 0;
+  padding: 20px 0px;
   justify-content: center;
 }
 .logo {
@@ -267,6 +268,19 @@ h2 {
   color: white;
   font-size: 18px;
   font-weight: normal;
+}
+/* about -----------------------------------  */
+.aboutsection {
+  width: 100%;
+  background: #3a3a3a;
+}
+h2.aboutaust {
+  padding: 30px;
+  font-size: 20px;
+  background: #3a3a3a;
+}
+.portrait {
+  width: 100%;
 }
 
 /* ------------------------------------------- */
